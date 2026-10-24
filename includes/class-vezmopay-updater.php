@@ -27,7 +27,7 @@ class Updater {
 	/**
 	 * GitHub repository (owner/name).
 	 */
-	const REPO = 'ACCEPT-GLOBAL-LIMITED/vezmoPay-wooCommerce';
+	const REPO = 'vezmoPay/vezmoPay-wooCommerce';
 
 	/**
 	 * Transient key for the cached release lookup.

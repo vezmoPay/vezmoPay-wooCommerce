@@ -34,7 +34,7 @@ if command -v wp >/dev/null 2>&1; then
 	wp i18n make-pot . languages/vezmopay-woocommerce.pot \
 		--domain=vezmopay-woocommerce \
 		--exclude=docs \
-		--headers='{"Report-Msgid-Bugs-To":"https://github.com/ACCEPT-GLOBAL-LIMITED/vezmoPay-wooCommerce/issues"}'
+		--headers='{"Report-Msgid-Bugs-To":"https://github.com/vezmoPay/vezmoPay-wooCommerce/issues"}'
 else
 	echo "note: wp-cli not found — regenerate languages/vezmopay-woocommerce.pot before tagging." >&2
 fi

@@ -4,7 +4,7 @@
 
 **Accept payments through VezmoPay — three integration modes, zero card data on your server.**
 
-[![Version](https://img.shields.io/badge/version-0.3.14-blue.svg)](https://github.com/ACCEPT-GLOBAL-LIMITED/vezmoPay-wooCommerce/releases)
+[![Version](https://img.shields.io/badge/version-0.3.14-blue.svg)](https://github.com/vezmoPay/vezmoPay-wooCommerce/releases)
 [![WordPress](https://img.shields.io/badge/WordPress-6.0%2B-21759b.svg?logo=wordpress&logoColor=white)](https://wordpress.org)
 [![WooCommerce](https://img.shields.io/badge/WooCommerce-8.0%2B-96588a.svg?logo=woocommerce&logoColor=white)](https://woocommerce.com)
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-777bb4.svg?logo=php&logoColor=white)](https://php.net)
@@ -61,9 +61,9 @@
 
 ### 1 — Install
 
-**[⬇️ Download the latest release (vezmopay-woocommerce.zip)](https://github.com/ACCEPT-GLOBAL-LIMITED/vezmoPay-wooCommerce/releases/latest/download/vezmopay-woocommerce.zip)**, then in wp-admin go to **Plugins → Add New → Upload Plugin**, choose the file, and activate. Requires WordPress 6.0+, WooCommerce 8.0+, PHP 7.4+.
+**[⬇️ Download the latest release (vezmopay-woocommerce.zip)](https://github.com/vezmoPay/vezmoPay-wooCommerce/releases/latest/download/vezmopay-woocommerce.zip)**, then in wp-admin go to **Plugins → Add New → Upload Plugin**, choose the file, and activate. Requires WordPress 6.0+, WooCommerce 8.0+, PHP 7.4+.
 
-Later versions arrive in wp-admin like any other plugin update. Each package is checked against the `vezmopay-sha256` digest published with its [release](https://github.com/ACCEPT-GLOBAL-LIMITED/vezmoPay-wooCommerce/releases) before it is installed.
+Later versions arrive in wp-admin like any other plugin update. Each package is checked against the `vezmopay-sha256` digest published with its [release](https://github.com/vezmoPay/vezmoPay-wooCommerce/releases) before it is installed.
 
 <details>
 <summary>🧑‍💻 Installing from source instead</summary>
@@ -71,7 +71,7 @@ Later versions arrive in wp-admin like any other plugin update. Each package is 
 ```bash
 # from your WordPress root — the folder name must be vezmopay-woocommerce
 cd wp-content/plugins
-git clone https://github.com/ACCEPT-GLOBAL-LIMITED/vezmoPay-wooCommerce.git vezmopay-woocommerce
+git clone https://github.com/vezmoPay/vezmoPay-wooCommerce.git vezmopay-woocommerce
 wp plugin activate vezmopay-woocommerce
 ```
 </details>
@@ -290,6 +290,6 @@ Contributions welcome — match WordPress Coding Standards, keep strings transla
 **VezmoPay for WooCommerce** · v0.3.14 · GPL-2.0-or-later
 Built by [Vezmo Technology, Inc.](https://vezmo.com)
 
-*💡 Found an issue? [Open one](https://github.com/ACCEPT-GLOBAL-LIMITED/vezmoPay-wooCommerce/issues) — include the redacted `vezmopay` log if you can.*
+*💡 Found an issue? [Open one](https://github.com/vezmoPay/vezmoPay-wooCommerce/issues) — include the redacted `vezmopay` log if you can.*
 
 </div>
